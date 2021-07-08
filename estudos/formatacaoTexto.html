@@ -1,0 +1,128 @@
+<!doctype html>
+<html lang="pt-br">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="../css/bootstrap.min.css">
+
+    <title>Formatações de texto</title>
+  </head>
+  <body style="margin-bottom: 200px; padding: 16px;">
+
+    <!-- CABEÇALHO -->
+    <!-- - [ ]  h1 → Atribui a formatação de h1. O mesmo se dá com os outros H´s
+            - [ ]  h1 - h6 -->
+    <h1>Cabeçalho 1</h1>
+    <h2>Cabeçalho 2</h2>
+    <h3>Cabeçalho 3</h3>
+    <h4>Cabeçalho 4</h4>
+    <h5 class="h1">Cabeçalho 5</h5>
+    <h6>Cabeçalho 6</h6>
+
+    <br><br>
+
+    <!-- DISPLAY CLASSES - MAIOR DESTAQUE -->
+    <!-- - [ ]  display-1 → Modifica a formatação de texto e é maior que os H´s
+            - [ ]  display-1 - display-4 -->
+    <h1 class="display-1">Display 1</h1>
+    <h1 class="display-2">Display 2</h1>
+    <h1 class="display-3">Display 3</h1>
+    <h1 class="display-4">Display 4</h1>
+
+    <br><br>
+
+    <!-- PARÁGRAFO -->
+    <p>(Normal) Mussum Ipsum, cacilds vidis litro abertis. Interessantiss quisso pudia ce receita de bolis, mais bolis eu num gostis. Em pé sem cair, deitado sem dormir, sentado sem cochilar e fazendo pose. </p>
+    <!-- lead → Deixa o parágrafo um pouco maior, mais destacado -->
+    <p class="lead">(lead) Mussum Ipsum, cacilds vidis litro abertis. Interessantiss quisso pudia ce receita de bolis, mais bolis eu num gostis. Em pé sem cair, deitado sem dormir, sentado sem cochilar e fazendo pose. </p>
+    <!-- text-monospace → Espaçamento de todas as letras iguais -->
+    <p class="text-monospace">(text-monospace) Mussum Ipsum, cacilds vidis litro abertis. Interessantiss quisso pudia ce receita de bolis, mais bolis eu num gostis. Em pé sem cair, deitado sem dormir, sentado sem cochilar e fazendo pose. </p>
+
+    <!-- CLASSES DE ESTILO -->
+    <!-- font-weight-bold → Negrito -->
+    <p class="font-weight-bold">Texto Negrito</p>
+    <!-- font-weight-normal → Normal -->
+    <p class="font-weight-normal">Texto Normal</p>
+    <!-- font-italic → Itálico -->
+    <p class="font-italic">Texto Itálico</p>
+
+    <!-- TRANSFORMAÇÕES DE TEXTOS -->
+    <!-- text-uppercase → Todas as letras maiúsculas -->
+    <p class="text-uppercase">Letras Maiúscula</p>
+    <!-- Todas as letras minúsculas -->
+    <p class="text-lowercase">Letras Minúscula</p>
+    <!-- text-capitalize → As primeiras letras maiúsculas -->
+    <p class="text-capitalize">primeiras maiúsculas</p>
+
+    <!-- ALINHAMENTOS -->
+    <!-- text-left → Alinha o texto à esquerda -->
+    <p class="text-left">Esquerda</p>
+    <!-- text-center → Alinha o texto centralizado -->
+    <p class="text-center">Centralizado</p>
+    <!-- text-right → Alinha o texto à direita -->
+    <p class="text-right">Direita</p>
+
+    <!-- BLOCO DE CITAÇÃO -->
+    <blockquote>
+        <p>(Normal) Este é um bloco de citação.</p>
+    </blockquote>
+    <blockquote class="blockquote">
+        <p>(Blockquote) Este é um bloco de citação.</p>
+    </blockquote>
+
+    <!-- BLOCO DE CITAÇÃO COM RODAPÉ -->
+    <!-- blockquote → Dá um destaque maior a citação -->
+    <blockquote>
+        <p>(Normal) Mussum Ipsum, cacilds vidis litro abertis. Interessantiss quisso pudia ce receita de bolis, mais bolis eu num gostis. Em pé sem cair, deitado sem dormir, sentado sem cochilar e fazendo pose.</p>
+        <footer>por
+            <cite>Mussum</cite>
+        </footer>
+    </blockquote>
+    <blockquote class="blockquote">
+        <p>(Blockquote-footer) Mussum Ipsum, cacilds vidis litro abertis. Interessantiss quisso pudia ce receita de bolis, mais bolis eu num gostis. Em pé sem cair, deitado sem dormir, sentado sem cochilar e fazendo pose.</p>
+        <!-- blockquote-footer → Bloco de citação com rodapé -->
+        <footer class="blockquote-footer">por
+            <cite>Mussum</cite>
+        </footer>
+    </blockquote>
+
+    <!-- TRUNCATE -->
+    <p>(Normal) Mussum Ipsum, cacilds vidis litro abertis. Interessantiss quisso pudia ce receita de bolis, mais bolis eu num gostis. Em pé sem cair, deitado sem dormir, sentado sem cochilar e fazendo pose. Mussum Ipsum, cacilds vidis litro abertis. Interessantiss quisso pudia ce receita de bolis, mais bolis eu num gostis. Em pé sem cair, deitado sem dormir, sentado sem cochilar e fazendo pose.</p>
+    <!-- text-truncate → Corta o texto em apenas uma linha que vai aparecendo a medida que a página for sendo ampliada -->
+    <p class="text-truncate">(text-truncate) Mussum Ipsum, cacilds vidis litro abertis. Interessantiss quisso pudia ce receita de bolis, mais bolis eu num gostis. Em pé sem cair, deitado sem dormir, sentado sem cochilar e fazendo pose. Mussum Ipsum, cacilds vidis litro abertis. Interessantiss quisso pudia ce receita de bolis, mais bolis eu num gostis. Em pé sem cair, deitado sem dormir, sentado sem cochilar e fazendo pose.</p>
+
+    <!-- LISTAS SEM ESTILO -->
+    <ul>
+        <p>Normal</p>
+        <li>Item 1</li>
+        <li>Item 2</li>
+        <li>Item 3</li>
+    </ul>
+    <!-- list-unstyled → Retira o estilo das listas (Posto nas UL´s) -->
+    <ul class="list-unstyled">
+        <p>list-unstyled</p>
+        <li>Item 1</li>
+        <li>Item 2</li>
+        <li>Item 3</li>
+    </ul>
+
+    <!-- LISTAS INLINE -->
+    <!-- list-inline → Transforma a lista para formato inline (Posto nas UL´s) -->
+    <ul class="list-inline">
+        <!-- list-inline-item → Item que será posto inline (Posto nas LI´s) -->
+        <li class="list-inline-item">Item 1</li>
+        <li class="list-inline-item">Item 2</li>
+        <li class="list-inline-item">Item 3</li>
+    </ul>
+
+    
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="../js/bootstrap.min.js"></script>
+  </body>
+</html>
